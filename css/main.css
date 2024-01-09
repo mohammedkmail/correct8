@@ -1,0 +1,135 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 30px;
+    color: rgb(46, 179, 179);
+}
+.hote::after{
+    content: 'Hot';
+    color: white;
+    font-size: 13px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30px;
+    
+
+
+}
+.sale::after{
+    content: 'sale';
+    color: white;
+    font-size: 16px;
+    background-color: rgb(20, 80, 148);
+    padding: 7px;
+    border-radius: 12px;
+    position: relative;
+    bottom: 30px;
+    
+
+
+}
+
+
+.main{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.247);
+    height: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.same{
+    display: flex;
+    margin: 20px;
+    width:40%;
+    background-color: white;
+    height: 42%;
+    border: blue solid 1.2px;
+}
+.pictur{
+margin-top: 15px;
+margin-left: 15px;
+width: 43%;
+height: 90%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border: solid 0.2px rgba(0, 0, 0, 0.233);
+    
+}
+
+.second{
+    width: 57%;
+    background-color: rgb(255, 255, 255);
+}
+.fail{
+    text-decoration-line: line-through ;
+    margin-left: 20px;
+    
+}
+.inline{
+    display: inline;
+}
+
+.firstp{
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: rgb(35, 35, 134);
+}
+
+.secondp{
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: rgba(2, 1, 1, 0.212);
+}
+.top20{
+    margin-top: 20px;
+}
+.left20{
+    margin-left: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    border: solid;
+    color: rgba(0, 0, 0, 0.151);
+    border-width: 1px;
+}
+.redbut{
+    display: inline;
+    background-color: rgb(219, 80, 80);
+    color: white;
+    width: 40%;
+    padding: 8px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+.bluebut{
+    display: inline;
+    background-color: rgb(60, 106, 255);
+    color: white;
+    width: 40%;
+    padding: 8px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+
+}
+
